@@ -17,8 +17,8 @@ width: 270px;
 border-radius: 0px;
 background-color: #adb5bd;
 }
-a{margin-left: 75px;
-color: #ccd5ae;}
+.oioioi{margin-left: 75px;
+color: #000000;}
 body{
     background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,86,1) 32%, rgba(0,212,255,1) 100%);
@@ -34,12 +34,12 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,86,1) 32%, rgba
 img{border-radius: 100px
 ;
 height: 100px;
-margin-left: 620px;
+margin-left: px;
 translate: ;
 
 }
 button{margin-top: 10px;
-margin-left: 20px;
+margin-left: 100px;
 border-radius: 0px;
 background-color: #adb5bd;
 width: 100px;
