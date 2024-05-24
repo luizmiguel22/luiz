@@ -1,15 +1,4 @@
-nav.menu {
-    width: 62px;
-    height: 100%;
-    background-color: #003049;
-    padding: 40px 0 40px 0; /* Ajuste para remover o espaço extra à esquerda */
-    box-shadow: 3px 0 0 #FF0077;
-    position: fixed;
-    top: 0;
-    left: 0;
-    transition: width 0.3s;
-    overflow: hidden;
-}
+
 
 nav.menu:hover {
     width: 300px;

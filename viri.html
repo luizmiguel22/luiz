@@ -4,18 +4,131 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacquard+12&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <style>
-
+    :root {
+        --cabeçalho: rgb(0, 0, 124);
+        --corpo: rgb(255, 167, 2);
+        --a: 130px;
+        --b: 100vh;
+    }
+    .corpo {
+        border: 1px solid black;
+        height: calc(100vh - var(--a));
+        background: linear-gradient(orange, rgb(241, 117, 0));
+    }
+    .paragrafo {
+        background-color: var(--cabeçalho);
+        width: 100%;
+        height: 100px;
+        text-align: center;
+    }
+    body {
+        padding: -10px;
+        margin: 0;
+        font-size: 25px;
+        font-family: "Lora", serif;
+        
+      
+    }
+    ol {
+        margin-left: 570px;
+        padding: 50px;
+    }
+    nav.menu {
+        width: 62px;
+        height: 100%;
+        background-color: #003049;
+        padding: 40px 0 40px 0;
+        box-shadow: 3px 0 0 #FF0077;
+        position: fixed;
+        top: 0;
+        left: 0;
+        transition: width 0.3s;
+        overflow: hidden;
+    }
+    nav.menu:hover {
+        width: 300px;
+    }
+    ul {
+        height: 100%;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    ul li {
+        margin: 0;
+        padding: 0;
+    }
+    ul li a .link {
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 20px 20%;
+        display: block;
+        text-align: center; /* Ajuste para centralizar o texto */
+    }
+    .icon {
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 20px 20%;
+        margin-left: 5px;
+    }
+    a {
+        display: flex;
+        text-decoration: none;
+    }
+    
+    
+    h1, p {
+        text-align: center;
+        font-family: "Lora", serif;
+        font-size: 30px;
+        font-weight: bold; 
+        font-style: normal;
+    }
+    h1 {
+        font-size: 40px;
+        line-height: 90px;
+    }
+    .ab{color: #fff;
+    margin-left: 15px;}
+    .oio:hover{background-color: #FF0077;}
+    .ooo:hover{background-color: #FF0077;}
     </style>
 </head>
 <body>
     <nav class="menu">
-        <div class="abrir"></div>
-        <h1>lista</h1>
-        <ol type="a"><li>tarefa 1</li>
-        <li>tarefa 2</li>
-         <li>tarefa 3</li></ol>
+        <div class="ab abertura"><i class="bi bi-device-ssd"></i></div>
+        <ul>
+            <li class="oio">
+                <a href="">
+                    <span class="icon"><i class="bi bi-database-fill-up"></i></span>
+                    <span class="link">teste</span>
+                </a>
+            </li>
+            <li class="ooo">
+                <a href="">
+                    <span class="icon"><i class="bi bi-database"></i></span>
+                    <span class="link">teste</span>
+                </a>
+            </li>
+        </ul>
     </nav>
-
+    <div class="paragrafo">
+        <h1>Treinos da Semana</h1>
+    </div>
+    <div class="corpo">
+        <ol type="A">
+            <li>Treino de perna</li><br>
+            <li>Treino de costa</li><br>
+            <li>Treino de peito</li><br>
+            <li>Treino de posterior</li>
+        </ol>
+    </div>
 </body>
 </html>
